@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Global Content Store</title>
+<h1>Welcome to Global Content Store Website</h1>
+     <script src="https://sdk.amazonaws.com/js/aws-sdk-2.19.0.min.js"></script>
+</head>
+<body>
+  <div id="listing"></div>
+  
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script type="text/javascript">
+  var S3_IGNR_PATH = true;
+  var BKT_URL = 'http://globalcontentstore.com.s3-us-west-1.amazonaws.com';
+  var S3_ROOT_DIR = '';
+  var BKT_WEB_URL = 'http://globalcontentstore.com.s3-us-west-1.amazonaws.com';
+  var NO_SHOW_FILE = 'index.html'
+</script>
+<script type="text/javascript" src="https://s3-us-west-1.amazonaws.com/globalcontentstore.com/list.js"></script>
+
+
+    <input type="file" id="file-chooser" />
+    <button id="upload-button">Upload File</button>
+    <div id="results"></div>
+    <script type="text/javascript" src="https://s3-us-west-1.amazonaws.com/globalcontentstore.com/upload.js"></script>
+
+Enter File to Delete <input type="text" id="delete-file" />
+<button id="delete-button">Delete File</button>
+<script type="text/javascript" src="https://s3-us-west-1.amazonaws.com/globalcontentstore.com/delete.js"></script> 
+
+<br>
+<button id="list-Dynamo">List files in Folder </button>
+<br>
+<ul id=“file-list" />
+<script type="text/javascript" src="https://s3-us-west-1.amazonaws.com/globalcontentstore.com/dynamo.js"></script>
+
+   
+</body>
+</html>
