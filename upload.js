@@ -5,8 +5,8 @@
             var file = chooseFile.files[0];
             if (file) {            
                 AWS.config.update({
-                    "accessKeyId": "AKIAIELA23ITK46BVTCA",
-                    "secretAccessKey": "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",
+                    "accessKeyId": "**********",
+                    "secretAccessKey": "**********",
                     "region": "us-west-1"
                 });
                 var s3Bucket = new AWS.S3();
