@@ -1,9 +1,15 @@
 # CloudComputingProject1
+
 University Name: http://www.sjsu.edu/ 
+
 Course: Cloud Technologies
+
 Professor Sanjay Garje 
+
 ISA: Divyankitha Urs
+
 Student: Abhinaya Yelipeddi
+
 Linkedin Profile: https://www.linkedin.com/in/abhinaya-yelipeddi-1a3073148/
 
 Project Introduction
@@ -42,6 +48,7 @@ Feature List
   Load all the html and .js files to the S3 bucket to bring up the web application.
   
   Sample Screenshots
+  Attached in the issues section.
   
  
   
