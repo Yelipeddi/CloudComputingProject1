@@ -1,4 +1,4 @@
-# CloudComputingProject1
+# 3-tier Web Application hosted on AWS
 
 University Name: http://www.sjsu.edu/ 
 
